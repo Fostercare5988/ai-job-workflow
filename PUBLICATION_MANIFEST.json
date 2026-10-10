@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-10",
+  "scope": "Explicit public file allowlist. The manifest excludes its own hash. Data is synthetic.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "9692d14cdfeeb283ac856cb14000c7074c827bc1e448063e51782df12a581222",
+      "bytes": 622
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e1e42b7187dc070a88b6e279afb3d6b6818aa288af62f3ba9fbd7d6b72846acb",
+      "bytes": 1252
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "09e2d6de1ffd5c2b89a25f45857824777466ad4a2242389b450a3e93e4b8e47a",
+      "bytes": 1112
+    },
+    {
+      "path": "AKTUEL_STATUS.md",
+      "sha256": "a3f30c5e1553aec3cd3ed55e47aa58afeef2fca024a115a25db383a21a5d2ce7",
+      "bytes": 725
+    },
+    {
+      "path": "Ansoegninger_Aktive/demo-ai-workflow/AFLEVERING.md",
+      "sha256": "c806fd95e1f438aa873e9581454b6b00b0c1fa5fb24662155311a4cf58a2bc8d",
+      "bytes": 544
+    },
+    {
+      "path": "Ansoegninger_Aktive/demo-ai-workflow/JOBLOG.md",
+      "sha256": "26568bd2605e3f482770d6d4f0955e46068d32339cbf88dabf294917a3d78cbc",
+      "bytes": 829
+    },
+    {
+      "path": "Ansoegninger_Aktive/demo-ai-workflow/cv.md",
+      "sha256": "608bca348f0ecedf6a8f9ec6f0f5884ebf78070f65a285a1c8f582e230272b64",
+      "bytes": 658
+    },
+    {
+      "path": "Ansoegninger_Aktive/demo-ai-workflow/match.md",
+      "sha256": "d3018600e8688b31ac679e17fc0aa79c25e8e98d814a1f3bbf581b3f912b0940",
+      "bytes": 315
+    },
+    {
+      "path": "Ansoegninger_Aktive/demo-ai-workflow/opslag.md",
+      "sha256": "de96536ba376ee8ff636b6eb239bb653aaa7a80ace1df9da353712d826b01cc5",
+      "bytes": 459
+    },
+    {
+      "path": "Ansoegninger_Aktive/demo-ai-workflow/review.json",
+      "sha256": "3a6c619503883cf3300bb70a2400ef06415e498f0ceafd7c40e4de24031e4fa2",
+      "bytes": 1393
+    },
+    {
+      "path": "Ansøgninger/_SENESTE_UDKAST.md",
+      "sha256": "dfcb93c1cd51ead78a63d07d5cbdfe6cdf85048f089071ec01d55f3f39837589",
+      "bytes": 282
+    },
+    {
+      "path": "DEMO_ONLY",
+      "sha256": "8d97a6293178a768f70f02b32fa51765936a6fd6d67ffdd66b8d7855f262a988",
+      "bytes": 20
+    },
+    {
+      "path": "Data/jobs.json",
+      "sha256": "f723b8e10ee6bf382ffb15a6713d45f4ef35ecf1513801cec54ef71fcfb9918f",
+      "bytes": 1852
+    },
+    {
+      "path": "Data/kontrol.json",
+      "sha256": "2cbcfbd6f3bc148b6347df491c69709822158731de3aa2984f3b3bf9938b7878",
+      "bytes": 80
+    },
+    {
+      "path": "FRAMEWORK.md",
+      "sha256": "11eabe201b5d0c2443307f35191ca3b5320d773f575f222eccac10345f82ec25",
+      "bytes": 2640
+    },
+    {
+      "path": "Jobsøgning_Tracker.md",
+      "sha256": "2ee3e620d879f263a48ac25272e5e3f550759ca56d2de725beaca09f0f17d077",
+      "bytes": 1279
+    },
+    {
+      "path": "PROVENANCE.json",
+      "sha256": "a36cce6811ca85ea1a2550477daf666e536f4430298806f26fdc8c21eb7b9aba",
+      "bytes": 1814
+    },
+    {
+      "path": "Profil/Kilder/github_inventory.json",
+      "sha256": "4df4febe9ba5303b6591b0b41289675678724ca06877658a3adc0cdd822248eb",
+      "bytes": 141
+    },
+    {
+      "path": "Profil/PROJEKTER.md",
+      "sha256": "d01261d6395360a6b085c15de02c18ccf17efe4a4771677cb8805b386db99073",
+      "bytes": 655
+    },
+    {
+      "path": "Profil/fakta.json",
+      "sha256": "5e1a661ca3604024be7d5dbc0bde6f65122785babc2b43a9bcaf8e3f83066122",
+      "bytes": 193
+    },
+    {
+      "path": "Profil/projekter.json",
+      "sha256": "a5da7a3da121ffa79d239d1d2df9f7bbdbd2efa5ffa92462f68f6c1d5b4e7d6a",
+      "bytes": 771
+    },
+    {
+      "path": "README.md",
+      "sha256": "058ad605cefef4f15d832b541f436b850ef6ddce4c1e457b63bb742c9a8005f6",
+      "bytes": 6454
+    },
+    {
+      "path": "System/KONTROL.md",
+      "sha256": "d68e759771c9e3c045f8959819b592c5d6434c515f5d9b8307f2209c531f3e49",
+      "bytes": 161
+    },
+    {
+      "path": "System/SKRIVESTIL.md",
+      "sha256": "186504b48c2ebf039d09e34545490e5fac5c5ec991c33bb18986b1a0399f1ad4",
+      "bytes": 313
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "34555e46232c352476b41307703f071590d0a6768c1e9edef92a2d4f1867c5f1",
+      "bytes": 2193
+    },
+    {
+      "path": "demo.py",
+      "sha256": "dd331a7ec2101e59f7481195804cc8873bc797e25d11e96918288e9c6c5f449b",
+      "bytes": 7909
+    },
+    {
+      "path": "demo/evidence.md",
+      "sha256": "d0872f68cb8ace54588fe721d188a3c18918e0d2a2b889f86879653c202a2b9a",
+      "bytes": 475
+    },
+    {
+      "path": "templates/job.json",
+      "sha256": "0fb0bb91a0f4c539f828a899852726a438d9e46fde9b69b46cb17bf9cdc6f08e",
+      "bytes": 758
+    },
+    {
+      "path": "templates/review.json",
+      "sha256": "d10ff195196610c570a84ee0b4d1b81473bda135af9eec42d96ef835fcc8b2cb",
+      "bytes": 370
+    },
+    {
+      "path": "tests/test_demo.py",
+      "sha256": "1783c505bfac8ed9e9d2c8ce6a98f673e4bea99f39339123f51fe7b9b7c348e9",
+      "bytes": 2648
+    },
+    {
+      "path": "tests/test_jobflow.py",
+      "sha256": "5af252c6e9cde0d05d35162af7f7cecf40eabd857e99c706b24b8fffa6b2d6a0",
+      "bytes": 26777
+    },
+    {
+      "path": "tests/test_jobrun.py",
+      "sha256": "34cacf6de47a19782a585e3846173a1e4aba931d8b2d153931eb0dcb018b9b2b",
+      "bytes": 4490
+    },
+    {
+      "path": "tools/jobflow.py",
+      "sha256": "ceab151f310ab6d082e10c4aca0ada79c7a5f7d680f8161830ded02262ffba14",
+      "bytes": 41702
+    },
+    {
+      "path": "tools/jobrun.py",
+      "sha256": "95f707b74b0522e919ad930a1133f3d5c0327f5740eff77e04e0b97276c0f3e7",
+      "bytes": 6029
+    },
+    {
+      "path": "tools/verify_manifest.py",
+      "sha256": "f5ef479d1572b44788a93200893aa89f8a2931c0c6d9e7955baee967887ec87a",
+      "bytes": 971
+    }
+  ],
+  "self": "PUBLICATION_MANIFEST.json"
+}

@@ -1,0 +1,16 @@
+{
+  "reviewed_by": "",
+  "reviewed_at": "YYYY-MM-DD",
+  "checks": {
+    "posting_and_deadline": false,
+    "requirements_and_format": false,
+    "candidate_facts": false,
+    "project_attribution": false,
+    "job_specific_match": false,
+    "style_and_language": false,
+    "all_claims_mapped": false
+  },
+  "claims": [],
+  "limitations": [],
+  "artifact_hashes": {}
+}

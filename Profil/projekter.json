@@ -1,0 +1,26 @@
+{
+  "demo_only": true,
+  "projects": [
+    {
+      "id": "PROJ-DEMO-WORKFLOW",
+      "name": "Synthetic document workflow",
+      "summary": "An invented project used to demonstrate source-mapped writing.",
+      "tags": [
+        "Python",
+        "AI-assisted development",
+        "validation"
+      ],
+      "evidence_level": "Synthetic fixture, not external verification",
+      "external_use": true,
+      "safe_claim_da": "Alex developed a local document workflow with AI assistance.",
+      "limitations": "No real project, runtime benchmark or production claim.",
+      "sources": [
+        {
+          "label": "Synthetic evidence",
+          "url": "https://example.invalid/demo-project",
+          "snapshot": "demo/evidence.md"
+        }
+      ]
+    }
+  ]
+}

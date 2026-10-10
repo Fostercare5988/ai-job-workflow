@@ -1,0 +1,40 @@
+{
+  "demo_only": true,
+  "reviewed_by": "Synthetic test fixture, not a factual reviewer",
+  "reviewed_at": "2026-10-10",
+  "checks": {
+    "posting_and_deadline": true,
+    "requirements_and_format": true,
+    "candidate_facts": true,
+    "project_attribution": true,
+    "job_specific_match": true,
+    "style_and_language": true,
+    "all_claims_mapped": true
+  },
+  "claims": [
+    {
+      "text": "Completed a fictional technical programme",
+      "source_ids": [
+        "FACT-DEMO-EDU"
+      ]
+    },
+    {
+      "text": "Built a synthetic workflow with AI assistance",
+      "source_ids": [
+        "PROJ-DEMO-WORKFLOW"
+      ]
+    }
+  ],
+  "limitations": [
+    "All checks are fixture values. A passing result does not establish truth."
+  ],
+  "artifact_hashes": {
+    "posting": "de96536ba376ee8ff636b6eb239bb653aaa7a80ace1df9da353712d826b01cc5",
+    "match": "d3018600e8688b31ac679e17fc0aa79c25e8e98d814a1f3bbf581b3f912b0940",
+    "cv": "608bca348f0ecedf6a8f9ec6f0f5884ebf78070f65a285a1c8f582e230272b64",
+    "Profil/fakta.json": "5e1a661ca3604024be7d5dbc0bde6f65122785babc2b43a9bcaf8e3f83066122",
+    "Profil/projekter.json": "a5da7a3da121ffa79d239d1d2df9f7bbdbd2efa5ffa92462f68f6c1d5b4e7d6a",
+    "System/SKRIVESTIL.md": "186504b48c2ebf039d09e34545490e5fac5c5ec991c33bb18986b1a0399f1ad4",
+    "job_context": "0669886ae2bdc9861499afafa69156499d79fc5a3324e71f881d72db0a18a2f6"
+  }
+}

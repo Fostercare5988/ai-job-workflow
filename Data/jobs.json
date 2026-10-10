@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "demo_only": true,
+  "jobs": [
+    {
+      "id": "demo-ai-workflow",
+      "company": "Example Workshop (synthetic)",
+      "title": "AI workflow developer (synthetic)",
+      "url": "https://example.invalid/jobs/demo-ai-workflow",
+      "url_kind": "direct",
+      "language": "en",
+      "created_at": "2026-10-10",
+      "deadline": "2026-10-31",
+      "deadline_note": "Synthetic relative date; no actual vacancy or verified deadline",
+      "posting_checked_at": "2026-10-10",
+      "posting_status": "open",
+      "requirements": {
+        "format": "cv_only",
+        "no_photo": true,
+        "no_age": true,
+        "max_words": null
+      },
+      "status": "needs_review",
+      "history": [],
+      "submission": null,
+      "selected_sources": [
+        "FACT-DEMO-EDU",
+        "PROJ-DEMO-WORKFLOW"
+      ],
+      "joblog_form": {
+        "posting_url": "https://example.invalid/jobs/demo-ai-workflow",
+        "postcode": "0000",
+        "city": "Example City",
+        "country": "Synthetic country",
+        "address": null,
+        "contact_person": null,
+        "email": null,
+        "phone": null,
+        "source_note": "All values are synthetic. Optional contact fields are deliberately empty.",
+        "sources": [
+          {
+            "label": "Invented fixture location",
+            "url": "https://example.invalid/contact"
+          }
+        ]
+      },
+      "files": {
+        "posting": "Ansoegninger_Aktive/demo-ai-workflow/opslag.md",
+        "match": "Ansoegninger_Aktive/demo-ai-workflow/match.md",
+        "cv": "Ansoegninger_Aktive/demo-ai-workflow/cv.md",
+        "review": "Ansoegninger_Aktive/demo-ai-workflow/review.json"
+      },
+      "next_action": "Inspect the synthetic package; no real application is possible",
+      "follow_up_on": null,
+      "legacy": null
+    }
+  ]
+}

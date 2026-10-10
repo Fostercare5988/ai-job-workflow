@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-10",
+  "origin": "Local working framework; public snapshot is separate and does not synchronize private data.",
+  "credits": {
+    "direction_and_review": "Niko",
+    "implementation": "AI-assisted development and public snapshot preparation"
+  },
+  "copied_code": [
+    {
+      "source_relative_path": "tools/jobflow.py",
+      "public_path": "tools/jobflow.py",
+      "source_sha256": "ceab151f310ab6d082e10c4aca0ada79c7a5f7d680f8161830ded02262ffba14",
+      "public_sha256": "ceab151f310ab6d082e10c4aca0ada79c7a5f7d680f8161830ded02262ffba14",
+      "relation": "byte-identical snapshot"
+    },
+    {
+      "source_relative_path": "tools/jobrun.py",
+      "public_path": "tools/jobrun.py",
+      "source_sha256": "95f707b74b0522e919ad930a1133f3d5c0327f5740eff77e04e0b97276c0f3e7",
+      "public_sha256": "95f707b74b0522e919ad930a1133f3d5c0327f5740eff77e04e0b97276c0f3e7",
+      "relation": "byte-identical snapshot"
+    },
+    {
+      "source_relative_path": "tests/test_jobflow.py",
+      "public_path": "tests/test_jobflow.py",
+      "source_sha256": "5af252c6e9cde0d05d35162af7f7cecf40eabd857e99c706b24b8fffa6b2d6a0",
+      "public_sha256": "5af252c6e9cde0d05d35162af7f7cecf40eabd857e99c706b24b8fffa6b2d6a0",
+      "relation": "byte-identical snapshot"
+    },
+    {
+      "source_relative_path": "tests/test_jobrun.py",
+      "public_path": "tests/test_jobrun.py",
+      "source_sha256": "34cacf6de47a19782a585e3846173a1e4aba931d8b2d153931eb0dcb018b9b2b",
+      "public_sha256": "34cacf6de47a19782a585e3846173a1e4aba931d8b2d153931eb0dcb018b9b2b",
+      "relation": "byte-identical snapshot"
+    }
+  ],
+  "data": "New synthetic fixtures. No real applicant, employer, repository, request or receipt records copied."
+}

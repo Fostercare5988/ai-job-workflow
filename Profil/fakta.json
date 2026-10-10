@@ -1,0 +1,11 @@
+{
+  "demo_only": true,
+  "facts": [
+    {
+      "id": "FACT-DEMO-EDU",
+      "external_use": true,
+      "text": "Synthetic technical education",
+      "source": "demo/evidence.md"
+    }
+  ]
+}

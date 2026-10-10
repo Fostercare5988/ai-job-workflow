@@ -1,0 +1,23 @@
+{
+  "id": "new-case-id",
+  "company": "",
+  "title": "",
+  "url": "",
+  "url_kind": "direct",
+  "language": "unknown",
+  "created_at": "YYYY-MM-DD",
+  "deadline": null,
+  "deadline_note": "",
+  "posting_checked_at": null,
+  "posting_status": "unknown",
+  "requirements": {"format": "unknown", "no_photo": true, "no_age": true, "max_words": null},
+  "status": "discovered",
+  "history": [],
+  "submission": null,
+  "selected_sources": [],
+  "joblog_form": {"posting_url": null, "postcode": null, "city": null, "address": null, "country": null, "contact_person": null, "email": null, "phone": null, "source_note": null, "sources": []},
+  "files": {},
+  "next_action": "Read the actual posting and candidate sources",
+  "follow_up_on": null,
+  "legacy": null
+}

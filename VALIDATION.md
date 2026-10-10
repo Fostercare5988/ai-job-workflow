@@ -30,7 +30,15 @@ The two tools and two original test files were checked against their local sourc
 SHA-256 values. Exact copy hashes are recorded in PROVENANCE.json. The final
 publication manifest can be checked with `python tools/verify_manifest.py`.
 
-The GitHub Actions matrix is configured for Windows and Ubuntu with Python 3.11
-and 3.13. Those CI runs have not been observed locally. Passing local tests does
-not prove semantic accuracy of an application, successful hiring, or production
-reliability.
+The [first published GitHub Actions run](https://github.com/Fostercare5988/ai-job-workflow/actions/runs/38054723757)
+passed on 10 October 2026 at commit
+`79ffab5b6e10bd37415c2a54496c4a1df4e428a2`. All four matrix jobs passed:
+Ubuntu with Python 3.11 and 3.13, and Windows with Python 3.11 and 3.13.
+
+After that run, `actions/checkout` and `actions/setup-python` were updated to
+`@v7` to address the reported Node.js 20 deprecation. Follow-up CI for this
+dependency update is pending. Local tests were not repeated for this workflow
+version and documentation change; the publication manifest was verified.
+
+Passing tests does not prove semantic accuracy of an application, successful
+hiring, or production reliability.

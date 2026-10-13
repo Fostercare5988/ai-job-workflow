@@ -1,6 +1,6 @@
 # Seneste registerkontrol
 
-2026-10-10: 1 sager, 0 fejl og 0 opmærksomhedspunkter.
+2026-10-13: 1 sager, 0 fejl og 0 opmærksomhedspunkter.
 
 
 

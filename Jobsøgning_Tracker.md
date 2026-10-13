@@ -1,12 +1,12 @@
 # Jobsøgningsoverblik
 
-Genereret fra `Data/jobs.json` den 2026-10-10. Assistenten vedligeholder registeret.
+Genereret fra `Data/jobs.json` den 2026-10-13. Assistenten vedligeholder registeret.
 
 ## Aktive sager
 
 | Virksomhed og stilling | Frist | Status | Næste handling |
 | --- | --- | --- | --- |
-| [Example Workshop (synthetic): AI workflow developer (synthetic)](<Ansoegninger_Aktive/demo-ai-workflow/AFLEVERING.md>) | 2026-10-31 | Skal gennemgås | Pakken består filkontrollen; afslut reviewer-passagen og registrér ready med grundlag |
+| [Example Workshop (synthetic): AI workflow developer (synthetic)](<Ansoegninger_Aktive/demo-ai-workflow/AFLEVERING.md>) | 2026-11-03 | Skal gennemgås | Pakken består filkontrollen; gennemgå dokumenter og kilder, før pakken markeres klar |
 
 ## Historik og jobloggrundlag
 
@@ -19,9 +19,9 @@ Alle sager og statusoplysninger i denne demo er fiktive. Ingen historik er impor
 - Postnr/by: Ikke oplyst
 - Kontaktperson: Ikke oplyst
 - Sprog: en
-- Udarbejdet: 2026-10-10
+- Udarbejdet: 2026-10-13
 - Opslag: [https://example.invalid/jobs/demo-ai-workflow](https://example.invalid/jobs/demo-ai-workflow)
-- Frist: 2026-10-31
+- Frist: 2026-11-03
 - Status: Skal gennemgås
 - Fil: [opslag.md](<Ansoegninger_Aktive/demo-ai-workflow/opslag.md>)
 - Fil: [match.md](<Ansoegninger_Aktive/demo-ai-workflow/match.md>)

@@ -4,11 +4,11 @@ AI workflow developer (synthetic)
 
 Status: Skal gennemgås
 
-Frist: 2026-10-31
+Frist: 2026-11-03
 
 [Jobopslag](https://example.invalid/jobs/demo-ai-workflow)
 
-Næste handling: Pakken består filkontrollen; afslut reviewer-passagen og registrér ready med grundlag
+Næste handling: Pakken består filkontrollen; gennemgå dokumenter og kilder, før pakken markeres klar
 
 ## Dokumenter
 

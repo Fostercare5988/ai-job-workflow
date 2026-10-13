@@ -1,7 +1,7 @@
 {
   "demo_only": true,
   "reviewed_by": "Synthetic test fixture, not a factual reviewer",
-  "reviewed_at": "2026-10-10",
+  "reviewed_at": "2026-10-13",
   "checks": {
     "posting_and_deadline": true,
     "requirements_and_format": true,
@@ -29,12 +29,12 @@
     "All checks are fixture values. A passing result does not establish truth."
   ],
   "artifact_hashes": {
-    "posting": "de96536ba376ee8ff636b6eb239bb653aaa7a80ace1df9da353712d826b01cc5",
+    "posting": "c161d6ba0437bca94ef497394c7a6111e97f389fa8771feec046305e4caaf275",
     "match": "d3018600e8688b31ac679e17fc0aa79c25e8e98d814a1f3bbf581b3f912b0940",
     "cv": "608bca348f0ecedf6a8f9ec6f0f5884ebf78070f65a285a1c8f582e230272b64",
     "Profil/fakta.json": "5e1a661ca3604024be7d5dbc0bde6f65122785babc2b43a9bcaf8e3f83066122",
     "Profil/projekter.json": "a5da7a3da121ffa79d239d1d2df9f7bbdbd2efa5ffa92462f68f6c1d5b4e7d6a",
     "System/SKRIVESTIL.md": "186504b48c2ebf039d09e34545490e5fac5c5ec991c33bb18986b1a0399f1ad4",
-    "job_context": "0669886ae2bdc9861499afafa69156499d79fc5a3324e71f881d72db0a18a2f6"
+    "job_context": "3e65a72f6e0cf80bc7fa9ba6d9e500a51b02466210276f0fb4884c4903cac812"
   }
 }

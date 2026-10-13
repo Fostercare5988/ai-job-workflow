@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-10",
+  "snapshot_date": "2026-10-13",
   "origin": "Local working framework; public snapshot is separate and does not synchronize private data.",
   "credits": {
     "direction_and_review": "Niko",
@@ -11,8 +11,8 @@
       "source_relative_path": "tools/jobflow.py",
       "public_path": "tools/jobflow.py",
       "source_sha256": "ceab151f310ab6d082e10c4aca0ada79c7a5f7d680f8161830ded02262ffba14",
-      "public_sha256": "ceab151f310ab6d082e10c4aca0ada79c7a5f7d680f8161830ded02262ffba14",
-      "relation": "byte-identical snapshot"
+      "public_sha256": "279d049e573c6f5f822568a0e5c2dbd5cabd3760b71ac53e64d88f0ef7c415d8",
+      "relation": "Adapted from recorded source snapshot: generic applicant labels and clearer next-action wording; control logic unchanged."
     },
     {
       "source_relative_path": "tools/jobrun.py",
@@ -36,5 +36,26 @@
       "relation": "byte-identical snapshot"
     }
   ],
-  "data": "New synthetic fixtures. No real applicant, employer, repository, request or receipt records copied."
+  "data": "Runnable applicant, employer, project and vacancy records are synthetic. No private applications or receipts are copied.",
+  "name": "JobFlow",
+  "previous_repository_name": "ai-job-workflow",
+  "presentation": {
+    "scope": "Niko authorised sharing the approved personal one-page case and its English translation on 13 October 2026.",
+    "sources": [
+      "docs/case.da.md",
+      "docs/case.en.md"
+    ],
+    "assets": [
+      "docs/assets/jobflow-case.da.pdf",
+      "docs/assets/jobflow-case.en.pdf",
+      "docs/assets/jobflow-case.da.png",
+      "docs/assets/jobflow-case.en.png"
+    ],
+    "public_details": "Name, professional title, city and the approved presentation contact email. No street address or private job case data."
+  },
+  "public_changes": [
+    "English and Danish README, case presentation and usage guides.",
+    "Publication verifier checks file metadata, hashes and optional exact Git index; CI verifies before resetting demo data.",
+    "New publication-boundary regression tests; synthetic fixture refreshed on snapshot date."
+  ]
 }

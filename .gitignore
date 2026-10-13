@@ -32,6 +32,7 @@
 !/Profil/fakta.json
 !/Profil/projekter.json
 !/README.md
+!/README.da.md
 !/System/
 !/System/KONTROL.md
 !/System/SKRIVESTIL.md
@@ -39,6 +40,18 @@
 !/demo.py
 !/demo/
 !/demo/evidence.md
+!/docs/
+!/docs/getting-started.md
+!/docs/getting-started.da.md
+!/docs/technical-guide.md
+!/docs/technical-guide.da.md
+!/docs/case.da.md
+!/docs/case.en.md
+!/docs/assets/
+!/docs/assets/jobflow-case.da.pdf
+!/docs/assets/jobflow-case.en.pdf
+!/docs/assets/jobflow-case.da.png
+!/docs/assets/jobflow-case.en.png
 !/templates/
 !/templates/job.json
 !/templates/review.json
@@ -46,6 +59,7 @@
 !/tests/test_demo.py
 !/tests/test_jobflow.py
 !/tests/test_jobrun.py
+!/tests/test_publication.py
 !/tools/
 !/tools/jobflow.py
 !/tools/jobrun.py

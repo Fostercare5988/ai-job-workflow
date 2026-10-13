@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 STATES = {
     "discovered": "Fundet", "drafting": "Under udarbejdelse",
     "needs_review": "Skal gennemgås", "ready": "Klar til gennemlæsning",
-    "approved": "Godkendt af Niko", "submitted": "Sendt",
+    "approved": "Godkendt af ansøgeren", "submitted": "Sendt",
     "interview": "Samtale", "rejected": "Afslag", "withdrawn": "Trukket tilbage",
     "closed": "Opslag lukket", "legacy_submitted": "Søgt ifølge tidligere tracker",
     "legacy_interview": "Samtale ifølge tidligere tracker",
@@ -286,7 +286,7 @@ def submission_errors(job, as_of=None):
     except (ValueError, TypeError):
         errors.append("Ugyldig afsendelsesdato")
     if not isinstance(record.get("evidence"), str) or not record["evidence"].strip():
-        errors.append("Sendt kræver kvittering eller Nikos udtrykkelige besked som grundlag")
+        errors.append("Sendt kræver kvittering eller ansøgerens udtrykkelige besked som grundlag")
     return errors
 
 
@@ -466,11 +466,11 @@ def diagnose(root, job, as_of=None):
         elif issues:
             action = "Ret de konkrete kontrolpunkter, gennemgå kilder og dokumenter, og kør validate igen"
         elif status == "ready":
-            action = "Niko gennemlæser jobpakken"
+            action = "Ansøgeren gennemlæser jobpakken"
         elif status == "approved":
             action = "Eksportér/indsend efter den givne instruktion; registrér kun sendt med faktisk dokumentation"
         else:
-            action = "Pakken består filkontrollen; afslut reviewer-passagen og registrér ready med grundlag"
+            action = "Pakken består filkontrollen; gennemgå dokumenter og kilder, før pakken markeres klar"
     elif status == "submitted":
         issues.extend(submission_errors(job, as_of))
         follow_up = iso(job.get("follow_up_on"))
@@ -534,7 +534,7 @@ def render(root, db):
             current += f"- [{j['company']}: {j['title']}](<{packet}>) — {sent_on}\n"
     else:
         current += "Ingen af de aktive ansøgninger er registreret som faktisk indsendt.\n"
-    current += "\nEn dato i Joblog er ikke dokumentation for, at arbejdsgiveren har modtaget ansøgningen. Status `sendt` kræver en kvittering eller Nikos udtrykkelige besked.\n"
+    current += "\nEn dato i Joblog er ikke dokumentation for, at arbejdsgiveren har modtaget ansøgningen. Status `sendt` kræver en kvittering eller ansøgerens udtrykkelige besked.\n"
     tracker += "\n## Historik og jobloggrundlag\n\n"
     if db.get("demo_only"):
         tracker += "Alle sager og statusoplysninger i denne demo er fiktive. Ingen historik er importeret fra en rigtig tracker, og intet er registreret i ekstern Jobnet/Joblog.\n\n"
@@ -655,7 +655,7 @@ def change_status(root, job, target, evidence, submitted_on=None, as_of=None):
         job["submission"] = {"date": submitted_on, "evidence": evidence}
     job["history"].append({"at": datetime.now().isoformat(timespec="seconds"), "from": job["status"], "to": target, "evidence": evidence})
     job["status"] = target
-    job["next_action"] = {"ready": "Niko gennemlæser jobpakken", "approved": "Eksportér/indsend efter den givne instruktion", "submitted": "Afvent svar", "interview": "Forbered samtale", "rejected": "Registrér eventuel feedback"}.get(target, "Se sagens noter")
+    job["next_action"] = {"ready": "Ansøgeren gennemlæser jobpakken", "approved": "Eksportér/indsend efter den givne instruktion", "submitted": "Afvent svar", "interview": "Forbered samtale", "rejected": "Registrér eventuel feedback"}.get(target, "Se sagens noter")
 
 
 def correct_status(root, job, target, evidence, submitted_on=None, as_of=None, clear_submission=False):

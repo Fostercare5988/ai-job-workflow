@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-10",
-  "scope": "Explicit public file allowlist. The manifest excludes its own hash. Data is synthetic.",
+  "snapshot_date": "2026-10-13",
+  "scope": "Explicit reviewed public file allowlist. Runnable demo records are synthetic; personal presentation is authorised separately in PROVENANCE.json.",
   "files": [
     {
       "path": ".gitattributes",
@@ -10,27 +10,27 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "53fd53664ba18f9e25780701b4e64423fe75407a495a42b0d03d0c3ef5620692",
-      "bytes": 622
+      "sha256": "dfe89f5819bf84ccd0b91ac805d655ce77deded3a4f4255e549d0ef9f1ef6f1b",
+      "bytes": 684
     },
     {
       "path": ".gitignore",
-      "sha256": "e1e42b7187dc070a88b6e279afb3d6b6818aa288af62f3ba9fbd7d6b72846acb",
-      "bytes": 1252
+      "sha256": "e92439348e93041cd9f890513a1d74b6492d2b6e598610197bc4ddd278c21c86",
+      "bytes": 1614
     },
     {
       "path": "AGENTS.md",
-      "sha256": "09e2d6de1ffd5c2b89a25f45857824777466ad4a2242389b450a3e93e4b8e47a",
-      "bytes": 1112
+      "sha256": "53bcb08b80b81ced9b6277820134ce0c029ef9f62ba7c7b40e566a4c5590d119",
+      "bytes": 1324
     },
     {
       "path": "AKTUEL_STATUS.md",
-      "sha256": "a3f30c5e1553aec3cd3ed55e47aa58afeef2fca024a115a25db383a21a5d2ce7",
-      "bytes": 725
+      "sha256": "dd11815a10cabfc972ea76dcbfde86d8788dda38c54feda027cbf0514e744f0a",
+      "bytes": 731
     },
     {
       "path": "Ansoegninger_Aktive/demo-ai-workflow/AFLEVERING.md",
-      "sha256": "c806fd95e1f438aa873e9581454b6b00b0c1fa5fb24662155311a4cf58a2bc8d",
+      "sha256": "662a06aab915a9909d30bcdc0b9f548fdc98587cafab5625c78c9c7c838d33c7",
       "bytes": 544
     },
     {
@@ -50,17 +50,17 @@
     },
     {
       "path": "Ansoegninger_Aktive/demo-ai-workflow/opslag.md",
-      "sha256": "de96536ba376ee8ff636b6eb239bb653aaa7a80ace1df9da353712d826b01cc5",
+      "sha256": "c161d6ba0437bca94ef497394c7a6111e97f389fa8771feec046305e4caaf275",
       "bytes": 459
     },
     {
       "path": "Ansoegninger_Aktive/demo-ai-workflow/review.json",
-      "sha256": "3a6c619503883cf3300bb70a2400ef06415e498f0ceafd7c40e4de24031e4fa2",
+      "sha256": "46e09562a0cb9a1bad558384a5826e3e4912067b0fd799cf2abfcea61222ad58",
       "bytes": 1393
     },
     {
       "path": "Ansøgninger/_SENESTE_UDKAST.md",
-      "sha256": "dfcb93c1cd51ead78a63d07d5cbdfe6cdf85048f089071ec01d55f3f39837589",
+      "sha256": "3e2d34882beffb1ae53ef82fc9dfcfa5c86eefa020f5aed405a4be4acc7f9f99",
       "bytes": 282
     },
     {
@@ -70,12 +70,12 @@
     },
     {
       "path": "Data/jobs.json",
-      "sha256": "f723b8e10ee6bf382ffb15a6713d45f4ef35ecf1513801cec54ef71fcfb9918f",
+      "sha256": "c4bf6d064f336e58a8b4c5901cd3c8da5c37113f4f0fcd7b3b9a32bdfb2b2913",
       "bytes": 1852
     },
     {
       "path": "Data/kontrol.json",
-      "sha256": "2cbcfbd6f3bc148b6347df491c69709822158731de3aa2984f3b3bf9938b7878",
+      "sha256": "6228430382de3d3e85a50027bc3d4015f41cba01ceb46763d59cb33343103e01",
       "bytes": 80
     },
     {
@@ -85,17 +85,17 @@
     },
     {
       "path": "Jobsøgning_Tracker.md",
-      "sha256": "2ee3e620d879f263a48ac25272e5e3f550759ca56d2de725beaca09f0f17d077",
+      "sha256": "0e740fe628b83fa754399b5f83566e1f50d007e52c3f191815572a914815c459",
       "bytes": 1279
     },
     {
       "path": "PROVENANCE.json",
-      "sha256": "a36cce6811ca85ea1a2550477daf666e536f4430298806f26fdc8c21eb7b9aba",
-      "bytes": 1814
+      "sha256": "11e5b44da96032aec8bd493dd3b17ac0b4b3f616d85ea479ba038467fe3ea2d5",
+      "bytes": 2895
     },
     {
       "path": "Profil/Kilder/github_inventory.json",
-      "sha256": "4df4febe9ba5303b6591b0b41289675678724ca06877658a3adc0cdd822248eb",
+      "sha256": "317cf974157787e3d7142e0e6f410a41400cb030a8d95f72155f6ea7cbce372a",
       "bytes": 141
     },
     {
@@ -114,13 +114,18 @@
       "bytes": 771
     },
     {
+      "path": "README.da.md",
+      "sha256": "a7b654656d68ee991863ee8bd375070131ff62307ffbaa76a5e2dba7bc733b6a",
+      "bytes": 3223
+    },
+    {
       "path": "README.md",
-      "sha256": "058ad605cefef4f15d832b541f436b850ef6ddce4c1e457b63bb742c9a8005f6",
-      "bytes": 6454
+      "sha256": "a162347167e4cbf4ede9130946119e1a91bbb144703d55c24ed3d5aa79d1a381",
+      "bytes": 3285
     },
     {
       "path": "System/KONTROL.md",
-      "sha256": "d68e759771c9e3c045f8959819b592c5d6434c515f5d9b8307f2209c531f3e49",
+      "sha256": "4b03f11c71cc85693c4d3500d01713809cb726f8850efacab8989f8f58e50cdf",
       "bytes": 161
     },
     {
@@ -130,8 +135,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "a0200f90d73b20b35b87be502aa86ece13c8590a934223e72c39d072b2a09023",
-      "bytes": 2657
+      "sha256": "cac21e0f61f71580c64f7742ab303e2d7d0b94d81abe747cc46aa502b389d591",
+      "bytes": 2825
     },
     {
       "path": "demo.py",
@@ -142,6 +147,56 @@
       "path": "demo/evidence.md",
       "sha256": "d0872f68cb8ace54588fe721d188a3c18918e0d2a2b889f86879653c202a2b9a",
       "bytes": 475
+    },
+    {
+      "path": "docs/assets/jobflow-case.da.pdf",
+      "sha256": "8516dd955499a210dd0c0dabaa71989fd00db48c2550d0790d67b23966a0b5f9",
+      "bytes": 111241
+    },
+    {
+      "path": "docs/assets/jobflow-case.da.png",
+      "sha256": "94bed4a7ef114d1914068770f2c523b5a37c41cd17908cbe007642a7d155448d",
+      "bytes": 283329
+    },
+    {
+      "path": "docs/assets/jobflow-case.en.pdf",
+      "sha256": "4988b0dd58808d930eb8372ec35b2ba2bd715b6bed35ebc186705dd5eb1ee19f",
+      "bytes": 108020
+    },
+    {
+      "path": "docs/assets/jobflow-case.en.png",
+      "sha256": "71a34d46d96e449127f56e716d986e209857e317457eb9b23baac763ac13a169",
+      "bytes": 277265
+    },
+    {
+      "path": "docs/case.da.md",
+      "sha256": "f42824cfbcb232243485e56dccd622480639bd5774d09af7d4be227d9d749e44",
+      "bytes": 2029
+    },
+    {
+      "path": "docs/case.en.md",
+      "sha256": "1cba5410a3e3f218cbf4002ae98963569e2066dd8cbccf88951fe93dd01e07a1",
+      "bytes": 1999
+    },
+    {
+      "path": "docs/getting-started.da.md",
+      "sha256": "e747af98c4661bb4845ab983bf6d5e7fd7f3f0af3667bdc21e1c72549bf20e1d",
+      "bytes": 3692
+    },
+    {
+      "path": "docs/getting-started.md",
+      "sha256": "c983ab0449c46b78df90f96fcf925ee1c9ea35050c7d907ef4b8e78d658e84d5",
+      "bytes": 3593
+    },
+    {
+      "path": "docs/technical-guide.da.md",
+      "sha256": "f5603661f579180e963179645011afbc1297d8cf944a14d3692be3cc60fd1e31",
+      "bytes": 7481
+    },
+    {
+      "path": "docs/technical-guide.md",
+      "sha256": "30cd7ab87e5b274477ce069febccfad31b335dd607e1baaf62cd9a1c46ca7e3e",
+      "bytes": 7043
     },
     {
       "path": "templates/job.json",
@@ -169,9 +224,14 @@
       "bytes": 4490
     },
     {
+      "path": "tests/test_publication.py",
+      "sha256": "90f0a072ea4ab64de7db93b8cd3cbebc6fb839ea8ab2c2892322f3b431c4db24",
+      "bytes": 7683
+    },
+    {
       "path": "tools/jobflow.py",
-      "sha256": "ceab151f310ab6d082e10c4aca0ada79c7a5f7d680f8161830ded02262ffba14",
-      "bytes": 41702
+      "sha256": "279d049e573c6f5f822568a0e5c2dbd5cabd3760b71ac53e64d88f0ef7c415d8",
+      "bytes": 41732
     },
     {
       "path": "tools/jobrun.py",
@@ -180,8 +240,8 @@
     },
     {
       "path": "tools/verify_manifest.py",
-      "sha256": "f5ef479d1572b44788a93200893aa89f8a2931c0c6d9e7955baee967887ec87a",
-      "bytes": 971
+      "sha256": "cc2ae03004e52b6c65a4db5624bd98eb166ffa239e19f8b73f557a86a7fc6260",
+      "bytes": 5119
     }
   ],
   "self": "PUBLICATION_MANIFEST.json"
